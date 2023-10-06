@@ -3,7 +3,7 @@ FROM alpine:3.11
 RUN apk update \
  && apk add --no-cache bash
 
-ARG restic_ver=0.13.1
+ARG restic_ver=0.16.0
 
 RUN wget -O /tmp/restic.bz2 \
     https://github.com/restic/restic/releases/download/v${restic_ver}/restic_${restic_ver}_linux_amd64.bz2 \
