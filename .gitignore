@@ -1,0 +1,6 @@
+# local config files
+local.env
+
+vendor/
+*.aes
+dockercfg
