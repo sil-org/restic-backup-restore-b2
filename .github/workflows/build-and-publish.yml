@@ -23,6 +23,8 @@ jobs:
         with:
           images: ${{ vars.DOCKER_ORG }}/${{ github.event.repository.name }}
           tags: |
+            type=ref,event=branch
+            type=ref,event=tag
             # set latest tag for master branch
             type=raw,value=latest,enable=${{ github.ref == format('refs/heads/{0}', 'main') }}
 
