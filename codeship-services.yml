@@ -1,5 +1,0 @@
-app:
-  build:
-    image: silintl/restic-backup-restore-b2
-    dockerfile: ./Dockerfile
-  cached: true
