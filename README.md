@@ -32,6 +32,3 @@ Docker image to initialize, backup to, and restore from a Restic repository on B
 
 It's recommended that your B2 bucket **NOT** have versioning turned on.
 Old versions of Restic's repository files are not useful.
-
-## Docker Hub
-This image is built automatically on Docker Hub as [silintl/restic-backup-restore-b2](https://hub.docker.com/r/silintl/restic-backup-restore-b2/)
